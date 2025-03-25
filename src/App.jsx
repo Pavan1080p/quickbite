@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import Navbar from "./component/Navbar";
+import HomeCard from "./component/HomeCard";
 
 const App = () => {
   return (
-    <div className='text-center underline font-bold text-5xl'> App</div>
-  )
-}
+    <div>
+      <Navbar />
+      <HomeCard />
+    </div>
+  );
+};
 
-export default App
+export default App;
