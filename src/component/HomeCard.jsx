@@ -2,7 +2,7 @@ export default function HomeCard() {
     return (
       <section className="bg-white p-6 ">
         <div className="flex flex-col items-start space-y-4">
-          {/* Heading & Subtext */}
+          {/* Heading */}
           <p className="text-gray-600 text-[20px]">Order Restaurant food, takeaway..</p>
           <h1 className="text-4xl font-bold ">
             Feast Your Senses, <br />
@@ -10,7 +10,7 @@ export default function HomeCard() {
           </h1>
           <p className="text-gray-500 text-[19px]">Enter a postcode to see what we deliver</p>
   
-          {/* Search Input & Button */}
+        
           <div className="flex items-center space-x-2 w-full max-w-md">
             <input
               type="text"
@@ -21,7 +21,7 @@ export default function HomeCard() {
               Search
             </button>
             <div>
-                H1
+                
             </div>
           </div>
         </div>
