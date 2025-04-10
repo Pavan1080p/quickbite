@@ -1,17 +1,14 @@
 import React from "react";
 import Navbar from "./component/Navbar";
-import HomeCard from "./component/HomeCard";
-import Footer from "./component/Footer";
-import PopularRestaurants from "./component/PopularRestaurants";
 
 
 const App = () => {
   return (
     <div>
       <Navbar />o
-      <HomeCard />
+      {/* <HomeCard /> */}
   {/* <PopularRestaurants/> */}
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 };
