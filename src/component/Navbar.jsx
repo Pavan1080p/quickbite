@@ -3,7 +3,7 @@ export default function Navbar() {
       <nav className="flex items-center justify-between bg-color p-4 shadow-md text">
     
         <div className="text-3xl font-bold text-black flex items-center">
-          Quick<span className="bg-orange-500 text-black px-1 ml-1 rounded-sm">bite</span>
+          Pc<span className="bg-orange-500 text-black px-1 ml-1 rounded-sm">Story</span>
         </div>
   
         {/* Navigation Links */}
